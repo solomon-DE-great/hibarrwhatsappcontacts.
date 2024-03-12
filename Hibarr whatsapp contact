@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Contacts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .whatsapp-button {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px 20px;
+            background-color: #25d366;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://api.whatsapp.com/send?phone=+491731009900" class="whatsapp-button">Contact 1</a>
+    <a href="https://api.whatsapp.com/send?phone=+905391360081" class="whatsapp-button">Contact 2</a>
+</body>
+</html>
